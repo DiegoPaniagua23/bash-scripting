@@ -4,12 +4,22 @@ This repository contains a collection of simple Bash scripts, each demonstrating
 
 ## How to Use
 
-1.  Make any script executable:
+1. Clone the repository:
+
+   ```bash
+   git clone <repository-url>
+   ```
+2. Navigate to the script's directory:
+
+   ```bash
+   cd bash-scripting/scripts
+   ```
+3.  Make any script executable:
 
     ```bash
     chmod u+x script_name.sh
     ```
-2.  Run the script:
+4.  Run the script:
 
     ```bash
     ./script_name.sh
