@@ -1,26 +1,31 @@
-# Ejemplos de Bash Scripting
+# Bash Scripting Examples
 
-Este repositorio contiene una colección de scripts de Bash simples, creados con el propósito de aprender y demostrar varias características fundamentales de la programación en Bash.
+This repository contains a collection of simple Bash scripts, each demonstrating a fundamental concept of shell scripting.
 
-## Cómo Ejecutar los Scripts
+## How to Use
 
-Para ejecutar cualquiera de estos scripts, clona el repositorio, navega al directorio raíz y utiliza la siguiente estructura de comando:
+1.  Make any script executable:
+    ```bash
+    chmod +x script_name.sh
+    ```
+2.  Run the script:
+    ```bash
+    ./script_name.sh
+    ```
 
-```bash
-bash scripts/<nombre_del_script>.sh [argumentos]
-```
+## Scripts
 
-## Descripción de los Scripts
+The scripts are organized by complexity, from a basic "Hello World" to more advanced topics like functions.
 
-| Script | Descripción | Uso de Ejemplo |
-| -------------------------- | ----------------------------------------------------------------------------- | --------------------------------------------- |
-| `variables.sh` | Demuestra la declaración y el uso básico de variables. | `bash scripts/variables.sh` |
-| `positionalarguments.sh` | Muestra cómo acceder a los argumentos posicionales pasados a un script. | `bash scripts/positionalarguments.sh Diego Paniagua` |
-| `interactiveshell.sh` | Un script interactivo simple que lee la entrada del usuario. | `bash scripts/interactiveshell.sh` |
-| `arrays.sh` | Ilustra la creación de arrays y cómo acceder a sus elementos. | `bash scripts/arrays.sh` |
-| `ifelifelse.sh` | Demuestra el uso de la lógica condicional con `if-elif-else`. | `bash scripts/ifelifelse.sh diego` |
-| `case.sh` | Muestra cómo usar una declaración `case` para la ramificación condicional. | `bash scripts/case.sh help` |
-| `forloop.sh` | Itera a través de los elementos de una lista usando un bucle `for`. | `bash scripts/forloop.sh` |
-| `firstfunction.sh` | Implementa una función simple que muestra el tiempo de actividad del sistema. | `bash scripts/firstfunction.sh` |
-| `functionposargu.sh` | Muestra cómo pasar argumentos a una función dentro de un script. | `bash scripts/functionposargu.sh otheruser` |
-| `shelltest.sh` | Un script básico de "Hola Mundo" para verificar la configuración. | `bash scripts/shelltest.sh` |
+| Script Name | Description |
+| :--- | :--- |
+| `shelltest.sh` | Prints a simple "Hello World!" message to the console. |
+| `variables.sh` | Shows how to declare and use variables. |
+| `positionalarguments.sh` | Demonstrates how to use positional arguments passed to the script. |
+| `interactiveshell.sh` | Illustrates how to create an interactive script that reads user input. |
+| `ifelifelse.sh` | Provides an example of the `if-elif-else` conditional structure. |
+| `case.sh` | Shows how to use the `case` statement to handle multiple conditions. |
+| `arrays.sh` | Explains how to define and access elements in an array. |
+| `forloop.sh` | Demonstrates a `for` loop that iterates over the items in an array. |
+| `firstfunction.sh` | Teaches how to define and call a simple function. |
+| `functionposargu.sh` | Combines functions with positional arguments and return codes. |
