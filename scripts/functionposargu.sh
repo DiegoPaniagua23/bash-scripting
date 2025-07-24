@@ -2,6 +2,14 @@
 
 showname() {
   echo Hello $1
+  if [ ${1,,} = diego ]; then
+    return 0
+  else
+    return 1
+  fi
 }
 
-showname Diego
+showname $1
+if [ $? = 1 ]; then
+  echo "Someone unknow called the function"
+fi
