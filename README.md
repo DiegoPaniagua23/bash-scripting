@@ -5,17 +5,17 @@ This repository contains a collection of simple Bash scripts, each demonstrating
 ## How to Use
 
 1.  Make any script executable:
+
     ```bash
-    chmod +x script_name.sh
+    chmod u+x script_name.sh
     ```
 2.  Run the script:
+
     ```bash
     ./script_name.sh
     ```
 
 ## Scripts
-
-The scripts are organized by complexity, from a basic "Hello World" to more advanced topics like functions.
 
 | Script Name | Description |
 | :--- | :--- |
