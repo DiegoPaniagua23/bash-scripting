@@ -11,5 +11,5 @@ showname() {
 
 showname $1
 if [ $? = 1 ]; then
-  echo "Someone unknow called the function"
+  echo "Someone unknown called the function"
 fi
